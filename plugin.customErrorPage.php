@@ -6,7 +6,7 @@
  * @internal @properties &ids=<strong>特定のドキュメントに設定する場合</strong><hr>対象にするドキュメントのID;text; &error_id=エラーページにするドキュメントのID<br>※非公開またはウェブユーザ限定のリソースは指定できません。;text; &tvname=<strong>ドキュメント毎に設定する場合</strong><hr>設定に使用するテンプレート変数の名前;text;
  */
 
-$e = &$modx->Event;
+$e = &$modx->event;
 switch($e->name) {
   case "OnPageNotFound":
     if ($tvname && $modx->documentObject[$tvname][1]) {
