@@ -3,7 +3,7 @@
  *
  * <strong>1.0</strong> ドキュメント毎にエラーページをカスタマイズします
  * @internal @events OnPageNotFound
- * プラグイン設定: &ids=<strong>特定のドキュメントに設定する場合</strong><hr>対象にするドキュメントのID;text; &error_id=エラーページにするドキュメントのID<br>※非公開またはウェブユーザ限定のリソースは指定できません。;text; &tvname=<strong>ドキュメント毎に設定する場合</strong><hr>設定に使用するテンプレート変数の名前;text;
+ * @internal @properties &ids=<strong>特定のドキュメントに設定する場合</strong><hr>対象にするドキュメントのID;text; &error_id=エラーページにするドキュメントのID<br>※非公開またはウェブユーザ限定のリソースは指定できません。;text; &tvname=<strong>ドキュメント毎に設定する場合</strong><hr>設定に使用するテンプレート変数の名前;text;
  */
 
 $e = &$modx->Event;
